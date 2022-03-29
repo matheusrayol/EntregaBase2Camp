@@ -26,7 +26,7 @@ public class GlobalParameters {
         InputStream input;
 
         try {
-            input = new FileInputStream("src/test/globalParameters.properties");
+            input = new FileInputStream("globalParameters.properties");
             properties.load(input);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
