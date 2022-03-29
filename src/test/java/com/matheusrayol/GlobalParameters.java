@@ -10,7 +10,7 @@ public class GlobalParameters {
 
     // Declare the global parameters
     public static String DEFAULT_BROWSER;
-    public static String EXECUTION;
+    public static String DEFAULT_EXECUTION;
     public static int DEFAULT_TIMEOUT;
     public static String DEFAULT_URL;
     public static String DEFAULT_DOWNLOAD_PATH;
@@ -36,7 +36,7 @@ public class GlobalParameters {
 
         // Set the global parameters
         DEFAULT_BROWSER = properties.getProperty("DEFAULT_BROWSER");
-        EXECUTION = properties.getProperty("EXECUTION");
+        DEFAULT_EXECUTION = properties.getProperty("DEFAULT_EXECUTION");
         DEFAULT_TIMEOUT = Integer.parseInt(properties.getProperty("DEFAULT_TIMEOUT"));
         DEFAULT_URL = properties.getProperty("DEFAULT_URL");
         DEFAULT_DOWNLOAD_PATH = properties.getProperty("DEFAULT_DOWNLOAD_PATH");
