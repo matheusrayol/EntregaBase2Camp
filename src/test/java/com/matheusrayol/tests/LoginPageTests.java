@@ -2,6 +2,7 @@ package com.matheusrayol.tests;
 
 import com.matheusrayol.GlobalParameters;
 import com.matheusrayol.bases.TestBase;
+import com.matheusrayol.flows.LoginFlow;
 import com.matheusrayol.pages.LoginPage;
 import com.matheusrayol.utils.DriverUtils;
 import org.junit.Assert;
@@ -9,12 +10,14 @@ import org.junit.Test;
 
 public class LoginPageTests extends TestBase {
     LoginPage loginPage;
+    LoginFlow loginFlow;
 
     // Tests
     @Test
     public void loginWithValidCredentials() {
         try {
             loginPage = new LoginPage();
+            loginFlow = new LoginFlow();
 
             // Parameters
             String username = GlobalParameters.DEFAULT_USERNAME;
@@ -22,9 +25,7 @@ public class LoginPageTests extends TestBase {
             String url = GlobalParameters.DEFAULT_URL + "my_view_page.php";
 
             // Test
-            loginPage.fillUsernameField(username);
-            loginPage.fillPasswordField(password);
-            loginPage.clickLoginButton();
+            loginFlow.doLogin(username, password);
 
             // Verify if login succeeded
             Assert.assertEquals(DriverUtils.INSTANCE.getCurrentUrl(), url);
@@ -36,6 +37,7 @@ public class LoginPageTests extends TestBase {
     @Test
     public void loginWithInvalidCredentials() {
         loginPage = new LoginPage();
+        loginFlow = new LoginFlow();
 
         // Parameters
         String username = GlobalParameters.DEFAULT_USERNAME;
@@ -43,9 +45,7 @@ public class LoginPageTests extends TestBase {
         String url = GlobalParameters.DEFAULT_URL + "login_page.php";
 
         // Test
-        loginPage.fillUsernameField(username);
-        loginPage.fillPasswordField(password);
-        loginPage.clickLoginButton();
+        loginFlow.doLogin(username, password);
 
         // Verify if login failed
         Assert.assertTrue(DriverUtils.INSTANCE.getCurrentUrl().contains(url));

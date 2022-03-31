@@ -7,13 +7,11 @@ public class LoginPage extends PageBase {
 
     // Mapping Login Page Elements for testing:
     // Locates the username field by its name
-    By usernameField = By.xpath("//input[@name='username']");
+    By usernameField = By.name("username");
     // Locates the password field by its name
-    By passwordField = By.xpath("//input[@name='password']");
+    By passwordField = By.name("password");
     // Locates the login button using its type
-    By loginButton = By.xpath("//input[@type='submit']");
-    // Locates the div where the error messa ge is displayed if the login fails
-    By errorMessage = By.xpath("//div[@class='alert alert-error']");
+    By loginButton = By.xpath("//input[@type='submit'][@value='Login']");
 
     // Login Page Actions
     // Method to fill the username field
