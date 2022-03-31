@@ -153,7 +153,7 @@ Lista de User Stories para a geração dos casos de teste, descritos de forma de
   
   **E** clico em *'View Issues'*
   
-  **E** clico no link *'Assignet To:'*
+  **E** clico no link *'Assigned To:'*
   
   **E** seleciono no campo *dropdown* a opção *'[none]'*
   

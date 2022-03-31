@@ -53,4 +53,42 @@ public class LoginTests extends TestBase {
         // Assertion
         Assert.assertEquals(DriverUtils.INSTANCE.getCurrentUrl(), url);
     }
+
+    @Test
+    public void efetuarLoginSemSenha() {
+
+        // Objects instances
+        loginPage = new LoginPage();
+        loginFlows = new LoginFlows();
+
+        // Parameters
+        String usuario = GlobalParameters.DEFAULT_USERNAME;
+        String senha = "";
+        String url = GlobalParameters.DEFAULT_URL + "login_page.php";
+
+        // Test
+        loginFlows.efetuarLogin(usuario, senha);
+
+        // Assertion
+        Assert.assertTrue(DriverUtils.INSTANCE.getCurrentUrl().contains(url));
+    }
+
+    @Test
+    public void efetuarLoginSemUsuario() {
+
+        // Objects instances
+        loginPage = new LoginPage();
+        loginFlows = new LoginFlows();
+
+        // Parameters
+        String usuario = "";
+        String senha = GlobalParameters.DEFAULT_PASSWORD;
+        String url = GlobalParameters.DEFAULT_URL + "login_page.php";
+
+        // Test
+        loginFlows.efetuarLogin(usuario, senha);
+
+        // Assertion
+        Assert.assertTrue(DriverUtils.INSTANCE.getCurrentUrl().contains(url));
+    }
 }

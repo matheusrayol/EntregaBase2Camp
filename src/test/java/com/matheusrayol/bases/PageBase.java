@@ -113,6 +113,11 @@ public class PageBase {
         return waitForElement(locator).getAttribute("value");
     }
 
+    // Método para realizar o upload de um arquivo
+    protected void uploadFile(By locator, String path) {
+        waitForElement(locator).sendKeys(path);
+    }
+
     // Ações padrão
     // Método para recarregar a página
     public void refresh() {
