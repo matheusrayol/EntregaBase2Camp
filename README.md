@@ -20,10 +20,8 @@ Automatizar os testes de uma aplicação ‘web’ (Mantis Bug Tracker).
 - Estruturação e arquitetura do código de automação;
 - Melhores práticas de versionamento do código.
 
-## Testes inclusos
-- Teste de cenário de sucesso no Login (concluído);
-- Teste de cenário de falha no Login (concluído);
-- Teste de cenário de sucesso na inclusão de issues no Bug Tracker (em andamento);
+## Cenários Projetados
+Os cenários projetados para a entrega final do projeto de automação de testes do Base2Camp pode ser encontrado no arquivo [BDD.md](https://github.com/matheusrayol/EntregaBase2Camp/blob/main/BDD.md), com informações detalhadas de cada cenário.
 
 ## Entrega
 - A entrega deve ser realizada até o dia 04 de Abril de 2022.
