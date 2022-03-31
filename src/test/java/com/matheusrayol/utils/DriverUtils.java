@@ -13,7 +13,7 @@ public class DriverUtils {
     // Method: createInstance
     // Description: Creates a new instance of the WebDriver
     public static void createInstance() {
-        String browser   = GlobalParameters.DEFAULT_BROWSER;
+        String browser = GlobalParameters.DEFAULT_BROWSER;
         String execution = GlobalParameters.DEFAULT_EXECUTION;
 
         if (INSTANCE == null) {
@@ -32,7 +32,8 @@ public class DriverUtils {
                     INSTANCE = new ChromeDriver(chromeOptions);
                 } else {
                     try {
-                        throw new Exception("O navegador informado não existe ou não é suportado pela automação no momento.");
+                        throw new Exception(
+                                "O navegador informado não existe ou não é suportado pela automação no momento.");
                     } catch (Exception e) {
                         e.printStackTrace();
                     }

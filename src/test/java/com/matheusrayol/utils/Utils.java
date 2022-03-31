@@ -17,7 +17,8 @@ public class Utils {
         File file = ((TakesScreenshot) DriverUtils.INSTANCE).getScreenshotAs(OutputType.FILE);
 
         try {
-            FileUtils.copyFile(file, new File(GlobalParameters.DEFAULT_SCREENSHOT_PATH + testName.getMethodName() + ".png"));
+            FileUtils.copyFile(file,
+                    new File(GlobalParameters.DEFAULT_SCREENSHOT_PATH + testName.getMethodName() + ".png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
