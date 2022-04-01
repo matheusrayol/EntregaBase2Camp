@@ -125,8 +125,6 @@ Lista de User Stories para a geração dos casos de teste, descritos de forma de
   
   **E** incluo quaisquer informações adicionais no campo *'Additional Information'*
   
-  **E** faço o upload do arquivo de log no campo *'Upload File'*
-  
   **E** clico no botão *'Submit Report'*
   
   **Então** a issue detalhada é cadastrada, retornando a mensagem *'Operation successful'* e retornando para a lista de issues do sistema
