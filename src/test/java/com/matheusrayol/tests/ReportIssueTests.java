@@ -48,6 +48,11 @@ public class ReportIssueTests extends TestBase {
         navMenuPage = new NavMenuPage();
         reportIssuePage = new ReportIssuePage();
 
+        /* MASSA DE DADOS
+         * Para a execução deste teste é necessário o preenchimento dos campos requeridos para a criação de um issue
+         * no projeto Daniella Maleski's Project. Os dados necessários de cada campo estão listados como parâmetros
+         * abaixo, de acordo com os campos mínimos exigidos para o cadastramento da issue no sistema. */
+
         // Parameters
         String categoria = "[All Projects] Apptest";
         String resumo = "Teste de Report Issue";
@@ -75,6 +80,12 @@ public class ReportIssueTests extends TestBase {
         loginFlows = new LoginFlows();
         navMenuPage = new NavMenuPage();
         reportIssuePage = new ReportIssuePage();
+
+        /* MASSA DE DADOS
+         * Para a execução deste teste é necessário o preenchimento dos campos para a criação de um issue no projeto
+         * Daniella Maleski's Project. Os dados necessários de cada campo estão listados como parâmetros abaixo,
+         * de acordo com os campos mínimos exigidos, bem como os campos adicionais presentes  para o cadastramento
+         * detalhado de uma issue no sistema. */
 
         // Parameters
         String categoria = "[All Projects] Apptest";

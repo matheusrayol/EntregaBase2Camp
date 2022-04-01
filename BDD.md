@@ -33,7 +33,7 @@ Lista de User Stories para a geração dos casos de teste, descritos de forma de
   **Para** visualizar de forma exclusiva as issues pertencentes a este Projeto
 
 
-- **Cenário:** Definir com sucesso o Projeto *'Daniela Maleski's Project'* como o padrão
+- **Cenário:** Definir com sucesso o Projeto *'Daniella Maleski's Project'* como o padrão
   
   **Dado** que estou na página de login do Mantis BT
   
@@ -45,21 +45,21 @@ Lista de User Stories para a geração dos casos de teste, descritos de forma de
   
   **E** sou direcionado para a página de visão geral de Projetos do Mantis Bug Tracker
   
-  **E** seleciono o Projeto *'Daniela Maleski's Project'* no menu Dropdown
+  **E** seleciono o Projeto *'Daniella Maleski's Project'* no menu Dropdown
   
-  **Então** o Projeto padrão é definido como *'Daniela Maleski's Project'*
+  **Então** o Projeto padrão é definido como *'Daniella Maleski's Project'*
 
 ## Caso 3
-- **Funcionalidade:** Cadastrar uma issue resumida no Projeto *'Daniela Maleski's Project'*
+- **Funcionalidade:** Cadastrar uma issue resumida no Projeto *'Daniella Maleski's Project'*
 
   Eu, como **usuário**
   
-  **Quero** incluir uma issue resumida no Projeto *'Daniela Maleski's Project'*
+  **Quero** incluir uma issue resumida no Projeto *'Daniella Maleski's Project'*
   
   **Para** que a equipe de desenvolvimento possa analisar o problema encontrado
 
 
-- **Cenário:** Cadastrar com sucesso uma issue resumida no Projeto *'Daniela Maleski's Project'*
+- **Cenário:** Cadastrar com sucesso uma issue resumida no Projeto *'Daniella Maleski's Project'*
 
   **Dado** que estou na página de login do Mantis BT
   
@@ -71,7 +71,7 @@ Lista de User Stories para a geração dos casos de teste, descritos de forma de
   
   **E** clico no item do menu *'Report Issue'*
 
-  **E** selecionar o Projeto *'Daniela Maleski's Project'*
+  **E** selecionar o Projeto *'Daniella Maleski's Project'*
   
   **E** seleciono a categoria *'Apptest'*
   
@@ -84,16 +84,16 @@ Lista de User Stories para a geração dos casos de teste, descritos de forma de
   **Então** a issue resumida é cadastrada, retornando a mensagem *'Operation successful'* e retornando para a lista de issues do sistema
 
 ## Caso 4
-- **Funcionalidade:** Cadastrar uma issue detalhada no Projeto *'Daniela Maleski's Project'*
+- **Funcionalidade:** Cadastrar uma issue detalhada no Projeto *'Daniella Maleski's Project'*
   
   Eu, como **usuário**
   
-  **Quero** incluir uma issue detalhada no Projeto *'Daniela Maleski's Project'*
+  **Quero** incluir uma issue detalhada no Projeto *'Daniella Maleski's Project'*
   
   **Para** que a equipe de desenvolvimento possa analisar o problema encontrado
 
 
-- **Cenário:** Cadastrar com sucesso uma issue detalhada no Projeto *'Daniela Maleski's Project'*
+- **Cenário:** Cadastrar com sucesso uma issue detalhada no Projeto *'Daniella Maleski's Project'*
 
   **Dado** que estou na página de login do Mantis BT
   
@@ -105,7 +105,7 @@ Lista de User Stories para a geração dos casos de teste, descritos de forma de
   
   **E** clico no item do menu *'Report Issue'*
   
-  **E** selecionar o Projeto *'Daniela Maleski's Project'*
+  **E** selecionar o Projeto *'Daniella Maleski's Project'*
   
   **E** seleciono a categoria *'Apptest'*
   
@@ -139,7 +139,7 @@ Lista de User Stories para a geração dos casos de teste, descritos de forma de
   **Para** visualizar as pendências que precisam de tratamento com urgência
 
 
-- **Cenário:** Visualizar com sucesso as issues de prioridade alta no Projeto *'Daniela Maleski's Project'* que não foram atribuídas a um usuário
+- **Cenário:** Visualizar com sucesso as issues de prioridade alta no Projeto *'Daniella Maleski's Project'* que não foram atribuídas a um usuário
   
   **Dado** que estou na página de login do Mantis BT
   
